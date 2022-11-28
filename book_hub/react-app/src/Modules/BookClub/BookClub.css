@@ -1,0 +1,50 @@
+.bookClub_description{
+    justify-content: space-between;
+    font-size: 2rem;
+    display: flex;
+    color: crimson;
+    text-transform: uppercase;  
+    margin-top: 3rem;
+}
+
+.bookClub_container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+
+}
+
+.bookClub_name , .bookClub_author{
+    display: block  ;
+}
+
+.bookClubLink{
+    font-size: 2rem;
+    color: blue;
+}
+
+.bookClubAuthor{
+    font-size: 2rem;
+    color: red;
+}
+
+.bookClubFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookClubTitle{
+    font-size: 2rem;
+    min-width: none;
+    max-width: 600px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.bookClubDescription{
+    width: 600px;
+    padding: 1rem;
+    text-align: center;
+
+}

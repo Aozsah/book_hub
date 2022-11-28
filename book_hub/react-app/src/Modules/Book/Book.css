@@ -1,0 +1,50 @@
+.book_description{
+    justify-content: space-between;
+    font-size: 2rem;
+    display: flex;
+    color: crimson;
+    text-transform: uppercase;  
+    margin-top: 3rem;
+}
+
+.book_container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+
+}
+
+.book_name , .book_author{
+    display: block  ;
+}
+
+.bookLink{
+    font-size: 2rem;
+    color: blue;
+}
+
+.bookAuthor{
+    font-size: 2rem;
+    color: red;
+}
+
+.bookFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookTitle{
+    font-size: 2rem;
+    min-width: none;
+    max-width: 600px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.bookDescription{
+    width: 600px;
+    padding: 1rem;
+    text-align: center;
+
+}

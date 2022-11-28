@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.logo{
+    width: 40%;
+    height: 40%;
+}
+
+.nav .left .menu {
+    display: flex;
+    list-style: none;
+}
+
+.slogan{
+    font-size: 1.2rem;
+    margin: 1rem;
+    color: #c44faa;
+}
+
